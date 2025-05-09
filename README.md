@@ -4,8 +4,8 @@ API REST básica hecha en Node.js + Express, con arquitectura en capas (modelo, 
 
 ## 🚀 ¿Cómo usar este proyecto?
 
-### 1. Clonar o copiar el proyecto  
-http://github/asdfsdaf
+### 1. Clonar o copiar el Repositorio 
+https://github.com/InakiGallas/tp2_apiRest
 
 ### 2. Instalar dependencias  
 Desde la terminal:
