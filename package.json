@@ -1,0 +1,17 @@
+{
+  "name": "mi-api",
+  "version": "1.0.0",
+  "description": "API REST en Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+     "start": "node index.js",
+    "watch": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
