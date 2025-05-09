@@ -25,6 +25,7 @@ http://localhost:8080/users
 
 📁 Estructura de carpetas
 mi_api_node/
+├── node_modules/
 ├── src/
 │   ├── controllers/
 │   │   └── user.controller.js
@@ -35,8 +36,10 @@ mi_api_node/
 │   └── services/
 │       └── user.service.js
 ├── index.js
+├── package-lock.json
 ├── package.json
 └── README.md
+
 📌 Endpoints disponibles
 Base: http://localhost:8080/users
 
@@ -52,13 +55,14 @@ Body esperado:
   "email": "nuevo@correo.com",
   "nota": 9
 }
+
 🔹 PATCH /users/:id
 Actualiza datos de un usuario por su ID.
 Body esperado:
-
 {
   "nombre": "Nombre Actualizado",
   "nota": 10
 }
+
 📝 Notas
 No se usa base de datos: los usuarios están en un array en memoria (user.model.js).
